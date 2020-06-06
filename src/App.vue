@@ -1,29 +1,27 @@
 <template>
   <div>
     <h1>Hello World!</h1>
+    <audio controls>
+      <source src="/dist/audio/music.mp3" type="audio/mpeg" />
+    </audio>
   </div>
 </template>
 
 <script>
-
-export default{
-  data(){
-    return {
-      
-    }
+export default {
+  data() {
+    return {};
   },
-  methods : {
-    init(){
+  methods: {
+    init() {
       console.log("Hi!! This is GHANI");
     }
   },
-  mounted(){
+  mounted() {
     this.init();
-  },
-}
-
+  }
+};
 </script>
 
 <style scoped>
-
 </style>
