@@ -1,0 +1,104 @@
+
+
+.container{
+  width:1300px;
+  margin: 20px auto;
+  height: 650px;
+  /* border: 10px dashed #E37731; */
+  background: #84C1C1;
+}
+.left_col, .right_col{
+  height:100%;
+  width:44%;
+  float: left;
+  padding: 0px 3%;
+}
+
+.display_none{
+    display: none;
+}
+.play_btn{
+    height:400px;
+    width:400px;
+    margin:125px auto;
+    cursor: pointer;
+}
+.play_btn img{
+    height:100%;
+    width:100%;
+}
+*{
+    font-family: 'Metal Mania', cursive;
+}
+
+
+.shake {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
+  
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.component img{
+    max-width: 90%;
+    max-height:90%;
+    padding: 5px;;
+    margin:auto auto;
+}
+h1{
+    font-size:130px;
+    text-shadow: 5px 5px 5px #888888;;
+}
+
+.c2 img{
+    margin-top: 90px;
+}
+.c2 h1 {
+    color: #DB5A5A;
+    margin-left: 45px;
+}
+
+.c1 h1{
+    color:#043A8D;
+}
+img{
+    box-shadow: 15px 10px 8px #888888;
+}
+.c3 h1{
+    color: #010124;
+}
+.c4 h1{
+    color: #888888;
+}
+.c5 h1{
+    color:#D7AC57;
+}
+
+.c14 h1 {
+    --animate-duration: 4s;
+  }
+  :root {
+    --animate-duration: 2s;
+  }
+
+  img.ghani{
+      width:250px;
+      height:250px;
+        border-radius: 50%;
+        margin: 30px auto;
+  }
