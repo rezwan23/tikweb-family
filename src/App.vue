@@ -2,7 +2,7 @@
   <div>
     <h1 style="text-align:center" class="shake display_none">Rocking Works from Some Rocking Persons.</h1>
     <div class="play_btn" @click="init">
-      <img src="/dist/images/play.png" class="animate__animated animate__zoomInDown" alt />
+      <img src="dist/images/play.png" class="animate__animated animate__zoomInDown" alt />
     </div>
     <div class="container display_none shake">
       <div class="c1 component" style="width:100%;height:100%">
@@ -10,12 +10,12 @@
           <h1 class="animate__backInDown">Ashraful Shohag</h1>
         </div>
         <div class="right_col">
-          <img src="/dist/images/works/ashrafulshohag.jpg" class="animate__backInUp" alt />
+          <img src="dist/images/works/ashrafulshohag.jpg" class="animate__backInUp" alt />
         </div>
       </div>
       <div class="c2 component" style="width:100%;height:100%">
         <div class="left_col">
-          <img src="/dist/images/works/brishtisarker.jpg" class="animate__backInLeft" alt />
+          <img src="dist/images/works/brishtisarker.jpg" class="animate__backInLeft" alt />
         </div>
         <div class="right_col">
           <h1 class="animate__backInRight">Brishti Sarker</h1>
@@ -26,12 +26,12 @@
           <h1 class="animate__bounceIn">Tahmina Sultana Shinti</h1>
         </div>
         <div class="right_col">
-          <img src="/dist/images/works/tahminasultanashinti.jpg" class="animate__bounceInUp" alt />
+          <img src="dist/images/works/tahminasultanashinti.jpg" class="animate__bounceInUp" alt />
         </div>
       </div>
       <div class="c4 component" style="width:100%;height:100%">
         <div class="left_col">
-          <img src="/dist/images/works/marzaan.jpg" class="animate__bounceInLeft" alt />
+          <img src="dist/images/works/marzaan.jpg" class="animate__bounceInLeft" alt />
         </div>
         <div class="right_col">
           <h1 class="animate__bounceInRight">Mar Zaan</h1>
@@ -42,12 +42,12 @@
           <h1 class="animate__flipInX">Tahomina Jahan</h1>
         </div>
         <div class="right_col">
-          <img src="/dist/images/works/tahominajahan.jpg" class="animate__flipInY" alt />
+          <img src="dist/images/works/tahominajahan.jpg" class="animate__flipInY" alt />
         </div>
       </div>
       <div class="c6 component" style="width:100%;height:100%">
         <div class="left_col">
-          <img src="/dist/images/works/fazlulpalash.jpg" class="animate__lightSpeedInLeft" alt />
+          <img src="dist/images/works/fazlulpalash.jpg" class="animate__lightSpeedInLeft" alt />
         </div>
         <div class="right_col">
           <h1 class="animate__lightSpeedInLeft">Fazlul Palash Sir</h1>
@@ -58,12 +58,12 @@
           <h1 class="animate__rotateInDownLeft">Tania Afrin Risa</h1>
         </div>
         <div class="right_col">
-          <img src="/dist/images/works/taniaafrinrisa.jpg" class="animate__rotateInDownRight" alt />
+          <img src="dist/images/works/taniaafrinrisa.jpg" class="animate__rotateInDownRight" alt />
         </div>
       </div>
       <div class="c8 component" style="width:100%;height:100%">
         <div class="left_col">
-          <img src="/dist/images/works/mofazahmed.jpg" class="animate__slideInDown" alt />
+          <img src="dist/images/works/mofazahmed.jpg" class="animate__slideInDown" alt />
         </div>
         <div class="right_col">
           <h1 class="animate__slideInUp">Mofaz Ahmed</h1>
@@ -74,12 +74,12 @@
           <h1 class="animate__backInDown">NJ Ahnaaf</h1>
         </div>
         <div class="right_col">
-          <img src="/dist/images/works/njahnaaf.jpg" class="animate__backInUp" alt />
+          <img src="dist/images/works/njahnaaf.jpg" class="animate__backInUp" alt />
         </div>
       </div>
       <div class="c10 component" style="width:100%;height:100%">
         <div class="left_col">
-          <img src="/dist/images/works/abubakersiddique.jpg" class="animate__backInDown" alt />
+          <img src="dist/images/works/abubakersiddique.jpg" class="animate__backInDown" alt />
         </div>
         <div class="right_col">
           <h1 class="animate__backInUp">Abu Baker Siddique</h1>
@@ -90,12 +90,12 @@
           <h1 class="animate__backInLeft">Rayhan Hossen</h1>
         </div>
         <div class="right_col">
-          <img src="/dist/images/works/rayhanhossen.jpg" class="animate__backInRight" alt />
+          <img src="dist/images/works/rayhanhossen.jpg" class="animate__backInRight" alt />
         </div>
       </div>
       <div class="c12 component" style="width:100%;height:100%">
         <div class="left_col">
-          <img src="/dist/images/works/kabidhassan.jpg" class="animate__bounceInLeft" alt />
+          <img src="dist/images/works/kabidhassan.jpg" class="animate__bounceInLeft" alt />
         </div>
         <div class="right_col">
           <h1 class="animate__bounceInRight">Kabid Hassan</h1>
@@ -106,11 +106,11 @@
           <h1 class="animate__flipInX">Tanisa Mohona</h1>
         </div>
         <div class="right_col">
-          <img src="/dist/images/works/tanisamohona.jpg" class="animate__flipInY" alt />
+          <img src="dist/images/works/tanisamohona.jpg" class="animate__flipInY" alt />
         </div>
       </div>
       <div class="c14 component" style="width:100%;height:100%;text-align:center">
-        <img src="/dist/images/works/ghani.jpg" class="ghani animate__zoomIn" alt />
+        <img src="dist/images/works/ghani.jpg" class="ghani animate__zoomIn" alt />
         <h1 style="margin-top:0px" class="fadeInLeft">Ghani Razwanul</h1>
         <h2 class="fadeInRight">github.com/rezwan23</h2>
       </div>
