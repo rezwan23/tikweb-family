@@ -6,7 +6,7 @@
     <div class="top">
       <h1 style="text-align: center; margin: 0px">Tikweb Family</h1>
       <h2 style="text-align: center; margin: 0px; font-size: 85px">
-        Click The Logo
+        {{title}}
       </h2>
       <div class="play_btn" @click="init">
         <img
@@ -194,6 +194,7 @@ export default {
   data() {
     return {
       audio: {},
+      title : "Please Wait for a few secones...",
       interval: 0,
       intervalObj: {},
       deviceWidth: 0,
@@ -315,9 +316,9 @@ export default {
           imagename: "yousuf.jpeg",
         },
         {
-          name : 'Mamun Bhai',
-          imagename : 'mamun.jpeg'
-        }
+          name: "Mamun Bhai",
+          imagename: "mamun.jpeg",
+        },
       ],
     };
   },
@@ -493,10 +494,9 @@ export default {
       $(document).ready(function () {
         let family = self.shuffle(self.tikwebFamily);
         family = self.shuffle(family);
-        let rand = self.generateRandom(1, 19)
+        let rand = self.generateRandom(1, 19);
         let index = 0;
-        for (let i = rand -1; i < rand + 10; i++) {
-          
+        for (let i = rand - 1; i < rand + 10; i++) {
           $(`.component.c${++index} div h1`).text(family[i].name);
           $(`.component.c${index} div img`).attr(
             "src",
@@ -527,6 +527,12 @@ export default {
 
       return rand;
     },
+    loadInit() {
+      let self = this
+      window.addEventListener("load", function () {
+        self.title = "Click the logo below"
+      });
+    },
   },
   mounted() {
     let sound = new Audio();
@@ -534,6 +540,7 @@ export default {
     this.audio = sound;
     this.deviceWidth = window.innerWidth;
     this.jqueryInit();
+    this.loadInit();
   },
 };
 </script>
