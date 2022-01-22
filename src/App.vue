@@ -23,7 +23,7 @@
         </div>
         <div class="right_col">
           <img
-            src="dist/images/works/ashrafulshohag.jpg"
+            src=""
             class="animate__backInUp"
             alt
           />
@@ -32,7 +32,7 @@
       <div class="c2 component" style="width: 100%; height: 100%">
         <div class="left_col">
           <img
-            src="dist/images/works/brishtisarker.jpg"
+            src=""
             class="animate__backInLeft"
             alt
           />
@@ -47,7 +47,7 @@
         </div>
         <div class="right_col">
           <img
-            src="dist/images/works/tahminasultanashinti.jpg"
+            src=""
             class="animate__bounceInUp"
             alt
           />
@@ -56,7 +56,7 @@
       <div class="c4 component" style="width: 100%; height: 100%">
         <div class="left_col">
           <img
-            src="dist/images/works/marzaan.jpg"
+            src=""
             class="animate__bounceInLeft"
             alt
           />
@@ -71,7 +71,7 @@
         </div>
         <div class="right_col">
           <img
-            src="dist/images/works/tahominajahan.jpg"
+            src=""
             class="animate__flipInY"
             alt
           />
@@ -80,7 +80,7 @@
       <div class="c6 component" style="width: 100%; height: 100%">
         <div class="left_col">
           <img
-            src="dist/images/works/fazlulpalash.jpg"
+            src=""
             class="animate__lightSpeedInLeft"
             alt
           />
@@ -95,7 +95,7 @@
         </div>
         <div class="right_col">
           <img
-            src="dist/images/works/taniaafrinrisa.jpg"
+            src=""
             class="animate__rotateInDownRight"
             alt
           />
@@ -104,7 +104,7 @@
       <div class="c8 component" style="width: 100%; height: 100%">
         <div class="left_col">
           <img
-            src="dist/images/works/mofazahmed.jpg"
+            src=""
             class="animate__slideInDown"
             alt
           />
@@ -119,7 +119,7 @@
         </div>
         <div class="right_col">
           <img
-            src="dist/images/works/njahnaaf.jpg"
+            src=""
             class="animate__backInUp"
             alt
           />
@@ -128,7 +128,7 @@
       <div class="c10 component" style="width: 100%; height: 100%">
         <div class="left_col">
           <img
-            src="dist/images/works/abubakersiddique.jpg"
+            src=""
             class="animate__backInDown"
             alt
           />
@@ -143,7 +143,7 @@
         </div>
         <div class="right_col">
           <img
-            src="dist/images/works/rayhanhossen.jpg"
+            src=""
             class="animate__backInRight"
             alt
           />
