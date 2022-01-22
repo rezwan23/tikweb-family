@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 style="text-align: center" class="shake display_none">
-      Rocking Persons.
+      Rocking Persons...
     </h1>
     <div class="top">
       <h1 style="text-align: center; margin: 0px">Tikweb Family</h1>
@@ -314,6 +314,10 @@ export default {
           name: "Yousuf Bhai",
           imagename: "yousuf.jpeg",
         },
+        {
+          name : 'Mamun Bhai',
+          imagename : 'mamun.jpeg'
+        }
       ],
     };
   },
@@ -489,7 +493,7 @@ export default {
       $(document).ready(function () {
         let family = self.shuffle(self.tikwebFamily);
         family = self.shuffle(family);
-        let rand = self.generateRandom(1, 18)
+        let rand = self.generateRandom(1, 19)
         let index = 0;
         for (let i = rand -1; i < rand + 10; i++) {
           
