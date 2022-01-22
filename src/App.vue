@@ -485,13 +485,19 @@ export default {
       this.interval += 5000;
     },
     jqueryInit() {
-      let self = this
+      let self = this;
       $(document).ready(function () {
-        let family = self.shuffle(self.tikwebFamily)
-        for(let i = 1; i <= 11 ; i++ ){
-          let index = i-1;
-          $(`.component.c${i} div h1`).text(family[index].name)
-          $(`.component.c${i} div img`).attr('src', `dist/images/tikweb/${family[index].imagename}`)
+        let family = self.shuffle(self.tikwebFamily);
+        family = self.shuffle(family);
+        let rand = self.generateRandom(1, 18)
+        let index = 0;
+        for (let i = rand -1; i < rand + 10; i++) {
+          
+          $(`.component.c${++index} div h1`).text(family[i].name);
+          $(`.component.c${index} div img`).attr(
+            "src",
+            `dist/images/tikweb/${family[i].imagename}`
+          );
         }
       });
     },
@@ -501,6 +507,21 @@ export default {
         [array[i], array[j]] = [array[j], array[i]];
       }
       return array;
+    },
+    generateRandom(min = 0, max = 100) {
+      // find diff
+      let difference = max - min;
+
+      // generate random number
+      let rand = Math.random();
+
+      // multiply with difference
+      rand = Math.floor(rand * difference);
+
+      // add with min value
+      rand = rand + min;
+
+      return rand;
     },
   },
   mounted() {
