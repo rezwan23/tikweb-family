@@ -5,8 +5,8 @@
     </h1>
     <div class="top">
       <h1 style="text-align: center; margin: 0px">Tikweb Family</h1>
-      <h2 style="text-align: center; margin: 0px; font-size: 85px">
-        {{title}}
+      <h2 style="text-align: center; margin: 0px; font-size: 75px">
+        {{title}} and Plugin Headphone
       </h2>
       <div class="play_btn" @click="init">
         <img
